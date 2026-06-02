@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culture | Kyoto Guide</title>
+    <style>
+        body { margin: 0; background-color: #fcfbf7; font-family: 'Helvetica Neue', Arial, sans-serif; color: #333; }
+        
+        /* شريط التنقل الموحد */
+        nav { padding: 40px; text-align: center; border-bottom: 1px solid #eee; margin-bottom: 20px; }
+        nav a { 
+            margin: 0 10px; 
+            text-decoration: none; 
+            color: #556b2f; 
+            font-size: 0.9rem; 
+            letter-spacing: 3px; 
+            text-transform: uppercase; 
+            font-family: 'Helvetica Neue', Arial, sans-serif; 
+        }
+
+        .wrapper { max-width: 1000px; margin: 0 auto; padding: 50px; }
+
+        /* العنوان الجانبي الموحد */
+        .title-section { text-align: left; margin-bottom: 80px; border-left: 2px solid #556b2f; padding-left: 20px; }
+        .title-section h1 { font-size: 4rem; font-weight: 200; margin: 0; color: #556b2f; }
+
+        /* تصميم المجلات - التوزيع غير المتماثل */
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+        
+        .item { padding: 40px; border: 1px solid #eee; transition: 0.3s; }
+        .item:hover { background: #fff; border-color: #556b2f; }
+        
+        .item h3 { font-size: 1.4rem; font-weight: 300; color: #556b2f; margin-top: 0; }
+        .item p { font-size: 1rem; line-height: 1.6; color: #777; }
+
+        /* تلوين العناصر للتباين */
+        .featured { background: #556b2f; color: #fcfbf7; border: none; }
+        .featured h3, .featured p { color: #fcfbf7; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="Attractions.html">ATTRACTIONS</a>
+        <a href="Hotels.html">HOTELS</a>
+        <a href="Dining.html">DINING</a>
+        <a href="Culture.html">CULTURE</a>
+        <a href="Transport.html">TRANSPORT</a>
+        <a href="Map.html">MAP</a>
+        <a href="Contact.html">CONTACT</a>
+    </nav>
+
+    <div class="wrapper">
+        <div class="title-section">
+            <h1>CULTURAL<br>ESSENCE</h1>
+        </div>
+
+        <div class="grid">
+            <div class="item featured">
+                <h3>Tea Ceremony</h3>
+                <p>An ancient ritual of preparing and drinking matcha, embodying harmony and respect.</p>
+            </div>
+            <div class="item">
+                <h3>Geisha Traditions</h3>
+                <p>Witness the grace and artistry of Gion's geiko and maiko in their beautiful kimonos.</p>
+            </div>
+            <div class="item">
+                <h3>Zen Gardens</h3>
+                <p>Find inner peace in meticulously raked gravel gardens that represent the landscape.</p>
+            </div>
+            <div class="item featured">
+                <h3>Temple Festivals</h3>
+                <p>Experience the vibrant energy of seasonal matsuri celebrations held at historic shrines.</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

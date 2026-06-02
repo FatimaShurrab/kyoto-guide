@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyoto | A Timeless Journey</title>
+    <style>
+        /* CSS الهادئ - Minimalist Design */
+        body, html { 
+            margin: 0; 
+            padding: 0; 
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+            background-color: #fcfbf7; /* Cream background */
+            color: #4a4a4a; 
+        }
+        
+        /* Navigation */
+        nav { 
+            position: absolute; 
+            top: 30px; 
+            width: 100%; 
+            text-align: center; 
+            z-index: 10;
+        }
+        nav a { 
+            color: #556b2f; /* Olive green */
+            margin: 0 20px; 
+            text-decoration: none; 
+            font-size: 0.9rem; 
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 300;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            background: linear-gradient(rgba(255,255,255,0.1), rgba(0,0,0,0.2)), 
+                        url('https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1600&q=80');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-align: center;
+        }
+
+        h1 { font-size: 4rem; margin-bottom: 10px; font-weight: 200; letter-spacing: 5px; }
+        p { font-weight: 300; font-size: 1.2rem; letter-spacing: 1px; }
+        
+        .btn-explore {
+            padding: 15px 40px;
+            background: transparent;
+            border: 1px solid #fff;
+            color: #fff;
+            text-decoration: none;
+            margin-top: 30px;
+            transition: 0.4s;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .btn-explore:hover { 
+            background: #556b2f; 
+            border-color: #556b2f;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="Attractions.html">ATTRACTIONS</a>
+        <a href="Hotels.html">HOTELS</a>
+        <a href="Dining.html">DINING</a>
+        <a href="culture.html">CULTURE</a>
+        <a href="transport.html">TRANSPORT</a>
+        <a href="map.html">MAP</a>
+        <a href="contact.html">CONTACT</a>
+    </nav>
+
+    <section class="hero">
+        <h1>KYOTO</h1>
+        <p>Experience the serenity of ancient traditions.</p>
+        <a href="attractions.html" class="btn-explore">Start Exploring</a>
+    </section>
+
+</body>
+</html>
