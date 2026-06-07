@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attractions | Kyoto Guide</title>
+    <title>Hotels | Kyoto Guide</title>
     <style>
         body { margin: 0; background-color: #fcfbf7; font-family: 'Helvetica Neue', Arial, sans-serif; color: #333; }
         
-        /* شريط التنقل الموحد (نفس الحجم والخط في كل الصفحات) */
+        /* شريط التنقل الموحد بـ 8 خانات */
         nav { padding: 40px; text-align: center; border-bottom: 1px solid #eee; margin-bottom: 20px; }
         nav a { 
             margin: 0 10px; 
             text-decoration: none; 
             color: #556b2f; 
-            font-size: 0.9rem; 
+            font-size: 0.7rem; 
             letter-spacing: 3px; 
             text-transform: uppercase; 
             font-family: 'Helvetica Neue', Arial, sans-serif; 
@@ -21,58 +21,62 @@
 
         .wrapper { max-width: 1000px; margin: 0 auto; padding: 50px; }
 
-        /* العنوان الجانبي الموحد */
+        /* العنوان الجانبي */
         .title-section { text-align: left; margin-bottom: 80px; border-left: 2px solid #556b2f; padding-left: 20px; }
         .title-section h1 { font-size: 4rem; font-weight: 200; margin: 0; color: #556b2f; }
 
-        /* توزيع العناصر - تصميم المجلات */
+        /* توزيع العناصر */
         .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
         
-        .item { padding: 40px; border: 1px solid #eee; transition: 0.3s; }
-        .item:hover { background: #fff; border-color: #556b2f; }
+        .hotel-item { padding: 40px; border: 1px solid #eee; transition: 0.3s; }
+        .hotel-item:hover { background: #fff; border-color: #556b2f; }
         
-        .item h3 { font-size: 1.4rem; font-weight: 300; color: #556b2f; margin-top: 0; }
-        .item p { font-size: 0.95rem; line-height: 1.6; color: #777; }
+        .hotel-item h3 { font-size: 1.4rem; font-weight: 300; color: #556b2f; margin-top: 0; }
+        .hotel-item p { font-size: 0.95rem; line-height: 1.6; color: #777; }
+        .price { font-weight: 600; color: #333; margin-top: 15px; display: block; }
 
-        /* تلوين العناصر للتباين */
         .featured { background: #556b2f; color: #fcfbf7; border: none; }
-        .featured h3, .featured p { color: #fcfbf7; }
+        .featured h3, .featured p, .featured .price { color: #fcfbf7; }
     </style>
 </head>
 <body>
 
     <nav>
         <a href="index.html">HOME</a>
-        <a href="Attractions.html">ATTRACTIONS</a>
-        <a href="Hotels.html">HOTELS</a>
-        <a href="Dining.html">DINING</a>
-        <a href="Culture.html">CULTURE</a>
-        <a href="Transport.html">TRANSPORT</a>
-        <a href="Map.html">MAP</a>
-        <a href="Contact.html">CONTACT</a>
+        <a href="attractions.html">ATTRACTIONS</a>
+        <a href="hotels.html">HOTELS</a>
+        <a href="food.html">DINING</a>
+        <a href="culture.html">CULTURE</a>
+        <a href="transport.html">TRANSPORT</a>
+        <a href="map.html">MAP</a>
+        <a href="contact.html">CONTACT</a>
     </nav>
 
     <div class="wrapper">
         <div class="title-section">
-            <h1>FAMOUS<br>SITES</h1>
+            <h1>SELECT<br>STAYS</h1>
         </div>
 
         <div class="grid">
-            <div class="item featured">
-                <h3>Fushimi Inari</h3>
-                <p>Walk through thousands of vibrant vermilion torii gates winding up the mountain.</p>
+            <div class="hotel-item featured">
+                <h3>The Ritz-Carlton</h3>
+                <p>Luxury riverside resort with traditional Japanese aesthetics and unmatched service.</p>
+                <span class="price">$800 / night</span>
             </div>
-            <div class="item">
-                <h3>Kinkaku-ji</h3>
-                <p>The stunning Golden Pavilion reflecting perfectly over the calm, serene pond.</p>
+            <div class="hotel-item">
+                <h3>Kyoto Granbell</h3>
+                <p>A seamless blend of modern architectural design and traditional Kyoto elements.</p>
+                <span class="price">$250 / night</span>
             </div>
-            <div class="item">
-                <h3>Arashiyama</h3>
-                <p>An ethereal path surrounded by soaring, majestic stalks of natural bamboo.</p>
+            <div class="hotel-item">
+                <h3>Ryokan Motonago</h3>
+                <p>An intimate, historic experience where you can live the authentic Japanese lifestyle.</p>
+                <span class="price">$350 / night</span>
             </div>
-            <div class="item featured">
-                <h3>Kiyomizu-dera</h3>
-                <p>Historic wooden temple offering breathtaking panoramic views of the entire city.</p>
+            <div class="hotel-item featured">
+                <h3>Four Seasons</h3>
+                <p>Set within an 800-year-old garden, offering a peaceful escape from the city bustle.</p>
+                <span class="price">$950 / night</span>
             </div>
         </div>
     </div>
